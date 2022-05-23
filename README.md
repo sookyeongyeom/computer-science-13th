@@ -4,10 +4,13 @@
 
 [**Student Resources**](https://media.pearsoncmg.com/ph/esm/ecs_brylow_csao_13/cw/)
 
+CHAPTER 01-02 ▶ 22.05.23 월 ✔️
+CHAPTER 02 ▶ 22.05.24 화
+
 ## 공부 일정
 
-- [ ] **CHAPTER 00** - 서론 ◀
-- [ ] **CHAPTER 01** - 데이터의 저장
+- [X] **CHAPTER 00** - 서론 ◀ 22.05.23
+- [ ] **CHAPTER 01** - 데이터의 저장 ◀ 22.05.23
 - [ ] **CHAPTER 02** - 데이터 조작
 - [ ] **CHAPTER 03** - 운영체제
 - [ ] **CHAPTER 04** - 네트워킹과 인터넷
