@@ -4,6 +4,8 @@
 
 [**Student Resources**](https://media.pearsoncmg.com/ph/esm/ecs_brylow_csao_13/cw/)
 
+## 공부 일정
+
 CHAPTER 01 ▶ 22.05.23 월 ✔️  
 CHAPTER 02 ▶ 22.05.24 화 - 22.05.25 수   
 CHAPTER 03 ▶ 22.05.26 목 - 22.05.27 금    
@@ -17,7 +19,7 @@ CHAPTER 10 ▶ 22.06.09 목 - 22.06.10 금
 CHAPTER 11 ▶ 22.06.11 토 - 22.06.12 일  
 CHAPTER 12 ▶ 22.06.13 월 - 22.06.14 화  
 
-## 공부 일정
+## Index
 
 - [X] **CHAPTER 00** - 서론
 - [ ] **CHAPTER 01** - 데이터의 저장
