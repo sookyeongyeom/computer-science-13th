@@ -7,7 +7,7 @@
 ## 공부 일정
 CHAPTER 00 ▶ 22.05.23 월 ✔️  
 CHAPTER 01 ▶ 22.05.24 화 - 22.05.26 목 ✔️  
-CHAPTER 02 ▶    
+CHAPTER 02 ▶ 22.05.27 금 - 22.05.28 토    
 CHAPTER 03 ▶   
 CHAPTER 04 ▶  
 CHAPTER 05 ▶  
