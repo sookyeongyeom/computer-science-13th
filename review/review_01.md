@@ -1028,10 +1028,34 @@ converts to ₩1265500.0
 dollars가 쓰이는 모든 곳에서 금액이 일괄 변경되는 효과를 누릴 수 있다.
 
 ## 59번
+```python
+b = 12345678
 
+kb = b / 1024
+mb = kb / 1024
+gb = mb / 1024
+
+print(f"Bytes = {b}")
+print(f"KiloBytes = {kb}")
+print(f"MegaBytes = {mb}")
+print(f"GigaBytes = {gb}")
+```
+```
+Bytes = 12345678
+KiloBytes = 12056.326171875
+MegaBytes = 11.77375602722168
+GigaBytes = 0.011497808620333672
+```
 
 ## 60번
-
+```python
+sec_per_music = 180
+stereo_size = 180 * 44100 * 32
+print(f"Stereo Size = {stereo_size}bits")
+```
+```
+Stereo Size = 254016000bits
+```
 
 ## 61번
 ```python
