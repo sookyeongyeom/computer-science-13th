@@ -843,7 +843,7 @@ The total cost is $7.25.
 총 4,194,304개의 주소가 존재하고,  
 4,194,304는 2의 22승이므로 모든 주소는 22비트로 표현이 가능하다.
 
-가장 큰 주소는 0011 1111 1111 1111 1111 일 것이고,  
+가장 큰 주소는 0011 1111 1111 1111 1111일 것이고,  
 이를 16진수로 표현하면 3 F F F F다.
 
 답은 3FFFF다.
@@ -868,16 +868,174 @@ xxy yyx xxy xxyy
 답은 [x, y, 공백, xxy, yyx, xxyy]다.
 
 ## 50번
-충분하지 않다.
+MPEG 기법을 사용할 경우,   
+40Mbps의 전송속도를 제공하는 통신경로 상에서 비디오가 성공적으로 재생되므로 57.6bps로는 역부족이다.
 
 ## 51번
+### a)
+Does 100/5=20?
+
+001000100 001101111 001100101 101110011 100100000       
+100110001 000110000 000110000 100101111 100111101 100110010 000110000 000111111
+
+### b)
+The total cost is $7.25.
+
+101010100 101101000 001100101 100100000     
+001110100 001101111 001110100 101100001 001101100 100100000      
+001100011 001101111 101110011 001110100 100100000         
+001101001 101110011 100100000     
+000100100 100110111 000101110 100110010 000110101 000101110 
+
 ## 52번
+11001 11011 10110 00000 11111   
+10001 10101 00100 01110
+
+오류가 발생한 비트 열은 11011, 00000, 10001이다.  
+(짝수 개의 오류가 발생한 비트 열은 탐지할 수 없다.)
+
 ## 53번
+동일한 패턴이 반복되므로 오류가 발생했을 시 패턴끼리 대조하여 정상 데이터로 조정할 수 있다.
+
 ## 54번
+### a)
+111010 110110
+
+H E
+
+답은 HE다.
+
+### b)
+101000 100110 001100
+
+F E D
+
+답은 FED다.
+
+### c)
+011101 000110 000000 010100
+
+D E A D
+
+답은 DEAD다.
+
+### d)
+010010 001000 001110 101111 000000 110111 100110
+
+C A B B A G E
+
+답은 CABBAGE다.
+
+### e)
+010011 000000 101001 100110
+
+C A F E
+
+답은 CAFE다.
+
 ## 55번
+```python
+USD_to_GBP = 0.79
+USD_to_EUR = 0.93
+USD_to_JPY = 126.77
+
+GBP_sign = "\u00A3"
+EUR_sign = "\u20AC"
+JPY_sign = "\u00A5"
+
+dollars = 1000
+
+pounds = dollars * USD_to_GBP
+euros = dollars * USD_to_EUR
+yen = dollars * USD_to_JPY
+
+print(f"Today, ${dollars}")
+print(f"converts to {GBP_sign}{pounds}")
+print(f"converts to {EUR_sign}{euros}")
+print(f"converts to {JPY_sign}{yen}")
+```
+```
+Today, $1000
+converts to £790.0
+converts to €930.0
+converts to ¥126770.0
+```
+
 ## 56번
+```python
+USD_to_GBP = 0.79
+USD_to_EUR = 0.93
+USD_to_JPY = 126.77
+USD_to_KOR = 1265.5
+
+GBP_sign = "\u00A3"
+EUR_sign = "\u20AC"
+JPY_sign = "\u00A5"
+KOR_sign = "\u20A9"
+
+dollars = 1000
+
+pounds = dollars * USD_to_GBP
+euros = dollars * USD_to_EUR
+yen = dollars * USD_to_JPY
+won = dollars * USD_to_KOR
+
+print(f"Today, ${dollars}")
+print(f"converts to {GBP_sign}{pounds}")
+print(f"converts to {EUR_sign}{euros}")
+print(f"converts to {JPY_sign}{yen}")
+print(f"converts to {KOR_sign}{won}")
+```
+```
+Today, $1000
+converts to £790.0
+converts to €930.0
+converts to ¥126770.0        
+converts to ₩1265500.0
+```
+
 ## 57번
+```python
+USD_to_GBP = 0.79
+USD_to_EUR = 0.93
+USD_to_JPY = 126.77
+USD_to_KOR = 1265.5
+
+dollars = 1000
+
+pounds = dollars * USD_to_GBP
+euros = dollars * USD_to_EUR
+yen = dollars * USD_to_JPY
+won = dollars * USD_to_KOR
+
+print(f"Today, ${dollars}")
+print(f"converts to £{pounds}")
+print(f"converts to €{euros}")
+print(f"converts to ¥{yen}")
+print(f"converts to ₩{won}")
+```
+```
+Today, $1000
+converts to £790.0
+converts to €930.0
+converts to ¥126770.0
+converts to ₩1265500.0
+```
+
 ## 58번
+코드의 변경이 간편해진다.   
+환전할 금액을 변경하고 싶을 시 dollars에 담긴 값만 바꿔주면    
+dollars가 쓰이는 모든 곳에서 금액이 일괄 변경되는 효과를 누릴 수 있다.
+
 ## 59번
+
+
 ## 60번
+
+
 ## 61번
+```python
+days_per_year = days_per_week ** weeks_per_year     # 이 부분이 틀렸다!
+```
+`**`는 제곱을 구하는 기호다.  
+여기서는 `*`를 사용해 단순 곱을 구하여야 한다.
