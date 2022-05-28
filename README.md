@@ -7,8 +7,8 @@
 ## 공부 일정
 CHAPTER 00 ▶ 22.05.23 월 ✔️  
 CHAPTER 01 ▶ 22.05.24 화 - 22.05.26 목 ✔️  
-CHAPTER 02 ▶ 22.05.27 금 - 22.05.28 토    
-CHAPTER 03 ▶   
+CHAPTER 02 ▶ 22.05.27 금 - 22.05.28 토 ✔️    
+CHAPTER 03 ▶ 22.05.29 일 - 22.05.30 월   
 CHAPTER 04 ▶  
 CHAPTER 05 ▶  
 CHAPTER 06 ▶  
@@ -23,7 +23,7 @@ CHAPTER 12 ▶
 
 - [X] **CHAPTER 00** - 서론
 - [X] **CHAPTER 01** - 데이터의 저장
-- [ ] **CHAPTER 02** - 데이터 조작
+- [X] **CHAPTER 02** - 데이터 조작
 - [ ] **CHAPTER 03** - 운영체제
 - [ ] **CHAPTER 04** - 네트워킹과 인터넷
 - [ ] **CHAPTER 05** - 알고리즘
