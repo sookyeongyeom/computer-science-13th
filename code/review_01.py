@@ -19,7 +19,6 @@ print(f"converts to {EUR_sign}{euros}")
 print(f"converts to {JPY_sign}{yen}")
 print()
 
-
 # 56
 USD_to_GBP = 0.79
 USD_to_EUR = 0.93
@@ -45,7 +44,6 @@ print(f"converts to {JPY_sign}{yen}")
 print(f"converts to {KOR_sign}{won}")
 print()
 
-
 # 57
 USD_to_GBP = 0.79
 USD_to_EUR = 0.93
@@ -66,7 +64,6 @@ print(f"converts to ¥{yen}")
 print(f"converts to ₩{won}")
 print()
 
-
 # 59
 b = 12345678
 
@@ -79,7 +76,6 @@ print(f"KiloBytes = {kb}")
 print(f"MegaBytes = {mb}")
 print(f"GigaBytes = {gb}")
 print()
-
 
 # 60
 sec_per_music = 180

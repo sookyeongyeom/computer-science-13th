@@ -1,3 +1,5 @@
+# 02-06
+
 # 1
 import math
 
@@ -7,7 +9,6 @@ hypo = int(math.sqrt(sideA ** 2 + sideB ** 2))
 print(f"빗변의 길이 = {hypo}")
 print()
 
-
 # 2
 import math
 
@@ -16,7 +17,6 @@ sideB = float(input("Length of side B? "))
 hypo = math.sqrt(sideA ** 2 + sideB ** 2)
 print(f"빗변의 길이 = {hypo}")
 print()
-
 
 # 3
 mph = 7.74193548387
@@ -32,12 +32,10 @@ print(
 )
 print()
 
-
 # 4
 decToBin = bin(int(input("10진수 = ")))
 print(f"2진수 = {decToBin}")
 print()
-
 
 # 5
 plain = int(input("Your number = "))
