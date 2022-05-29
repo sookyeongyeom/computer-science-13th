@@ -514,42 +514,58 @@ OR 1111 1111 1111 1111 1111 1111
 ## 36번
 ### a)
 ```python
-
+pattern = 0b01001011
+mask = 0b11110000
+print(bin(pattern | mask))
 ```
 
 ### b)
 ```python
-
+pattern = 0b01001011
+mask = 0b10000000
+print(bin(pattern ^ mask))
 ```
 
 ### c)
 ```python
-
+pattern = 0b01001011
+mask = 0b11111111
+print(bin(pattern ^ mask))
 ```
 
 ### d)
 ```python
-
+pattern = 0b01001011
+mask = 0b11111110
+print(bin(pattern & mask))
 ```
 
 ### e)
 ```python
-
+pattern = 0b01001011
+mask = 0b01111111
+print(bin(pattern | mask))
 ```
 
 ### f)
 ```python
-
+pattern = 0b111111111111111111111111
+mask = 0b111111110000000011111111
+print(bin(pattern & mask))
 ```
 
 ### g)
 ```python
-
+pattern = 0b010101110101101001101100
+mask = 0b111111111111111111111111
+print(bin(pattern ^ mask))
 ```
 
 ### h)
 ```python
-
+pattern = 0b010101110101101001101100
+mask = 0b111111111111111111111111
+print(bin(pattern | mask))
 ```
 
 ## 37번
@@ -559,19 +575,24 @@ XOR 1000 0001
 
 ## 38번
 ```python
-
+pattern = 0b10000001
+mask = 0b10000001
+print(bin(pattern ^ mask))
 ```
 
 ## 39번
 > 8비트 입력 열에 적용될 경우 입력 비트 열의 시작 비트와 마지막 비트가 모두 1일 경우 출력 비트 열 전체를 0으로 만드는 일련의 논리 연산과 마스크를 제시하라.
 
-AND 0000 0000  
-
-???
+XOR 1000 0001     
+AND 1000 0001    
 
 ## 40번
 ```python
-
+pattern = 0b10110101
+mask1 = 0b10000001
+pattern = pattern ^ mask1
+mask2 = 0b10000001
+print(bin(pattern & mask2))
 ```
 
 ## 41번
