@@ -1,6 +1,6 @@
 # 컴퓨터 과학 총론 (13th)
 
-2022 여름 계절학기 예습
+2022 여름 계절학기
 
 [**Student Resources**](https://media.pearsoncmg.com/ph/esm/ecs_brylow_csao_13/cw/)
 
