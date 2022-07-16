@@ -19,6 +19,9 @@ CHAPTER 10 ▶
 CHAPTER 11 ▶  
 CHAPTER 12 ▶
 
+- 중간고사 - CH1, CH2, CH3, CH12 
+- 기말고사 - 중간범위 + CH5 + CH6 + 보안
+
 ## Index
 
 - [X] **CHAPTER 00** - 서론
